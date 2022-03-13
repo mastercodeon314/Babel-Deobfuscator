@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BabelVMRestore\SuperDynamicReader.cs" />
+    <Compile Include="FormRebuilder.cs" />
+    <Compile Include="MethodSignature.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AntiTamper.cs" />
@@ -59,6 +61,7 @@
     <Compile Include="MethodEncryption\EncryptedMethodDetails.cs" />
     <Compile Include="MethodEncryption\VMDecryptor.cs" />
     <Compile Include="ProxyCalls\Delegates.cs" />
+    <Compile Include="Utils.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
