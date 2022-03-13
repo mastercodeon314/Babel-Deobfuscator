@@ -66,7 +66,7 @@ namespace BabelDeobfuscator
 			Strings.CleanStringMethodOne(moduleDefMD);
 			Strings.CleanStringMethodTwo(moduleDefMD);
 			De4Dot.Cflow(moduleDefMD);
-			AntiTamper.AntiTamp(Program.asm, moduleDefMD);
+			AntiTamper.AntiTamp(moduleDefMD);
 			FormRebuilder.RebuildForms(Program.asm, moduleDefMD);
 			Console.ForegroundColor = ConsoleColor.Green;
 			Console.WriteLine("Unpack Complete !");

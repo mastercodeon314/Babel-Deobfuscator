@@ -62,7 +62,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>dll\dnlib.dll</HintPath>
     </Reference>
+    <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
     <AppDesigner Include="Properties\" />
