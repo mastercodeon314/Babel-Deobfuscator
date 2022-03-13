@@ -2,6 +2,8 @@
 
 Babel-Deobfuscator is an open-source deobfuscator for Babel Obfuscator.
 
+Forked to add functionality for rebuild winform controls based on Name properties.
+
 ## Usage
 
 Open BabelDeobfuscator.exe and enter the name of the executable you wish to deobfuscate
