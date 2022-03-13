@@ -1,20 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabelDeobfuscator", "BabelDeobfuscator.csproj", "{721F99BF-66D0-478F-A72C-F2F6F4C21C18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{721F99BF-66D0-478F-A72C-F2F6F4C21C18}.Debug|x64.ActiveCfg = Debug|x64
 		{721F99BF-66D0-478F-A72C-F2F6F4C21C18}.Debug|x64.Build.0 = Debug|x64
+		{721F99BF-66D0-478F-A72C-F2F6F4C21C18}.Debug|x86.ActiveCfg = Debug|x86
+		{721F99BF-66D0-478F-A72C-F2F6F4C21C18}.Debug|x86.Build.0 = Debug|x86
 		{721F99BF-66D0-478F-A72C-F2F6F4C21C18}.Release|x64.ActiveCfg = Release|x64
 		{721F99BF-66D0-478F-A72C-F2F6F4C21C18}.Release|x64.Build.0 = Release|x64
+		{721F99BF-66D0-478F-A72C-F2F6F4C21C18}.Release|x86.ActiveCfg = Release|x86
+		{721F99BF-66D0-478F-A72C-F2F6F4C21C18}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
