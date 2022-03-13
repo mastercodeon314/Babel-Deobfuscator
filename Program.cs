@@ -9,7 +9,6 @@ using BabelDeobfuscator.Protections.ControlFlow;
 using BabelDeobfuscator.Protections.MethodEncryption;
 using BabelDeobfuscator.Protections.ProxyCalls;
 using dnlib.DotNet;
-using dnlib.DotNet.Emit;
 using dnlib.DotNet.Writer;
 
 namespace BabelDeobfuscator

@@ -5,7 +5,6 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Reflection;
-//using dnpatch;
 using dnlib.DotNet;
 using dnlib.DotNet.Emit;
 using System.Windows.Forms;
@@ -137,10 +136,7 @@ namespace BabelDeobfuscator.Protections
                         res = Utils.typesEqual(this.ReturnType, m.ReturnType);
 
                     }
-                    catch (Exception ex)
-                    {
-                        Debugger.Break();
-                    }
+                    catch (Exception) { }
 
 
                     if (res == true)
@@ -160,10 +156,7 @@ namespace BabelDeobfuscator.Protections
                                             res = Utils.typesEqual(this.Parameters[i], m.Parameters[i]);
 
                                         }
-                                        catch (Exception ex)
-                                        {
-                                            Debugger.Break();
-                                        }
+                                        catch (Exception) { }
 
 
                                         if (res == false) return false;
@@ -188,7 +181,5 @@ namespace BabelDeobfuscator.Protections
 
             return res;
         }
-
-
     }
 }

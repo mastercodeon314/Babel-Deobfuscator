@@ -31,7 +31,6 @@ namespace BabelDeobfuscator.Protections
 
                     if (reflectionFormType == null)
                     {
-                        //MessageBox.Show("reflectionFormType is null");
                         continue;
                     }
 
@@ -51,9 +50,6 @@ namespace BabelDeobfuscator.Protections
                     if (frm != null)
                     {
                         MethodDef frmInit = Utils.findFormInit(typeDef);
-
-                        //object frm = reflectionFormType.Assembly.CreateInstance(reflectionFormType.FullName);
-
                         Type frmTP = frm.GetType();
                         FieldInfo[] infs = frmTP.GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
 
@@ -71,10 +67,7 @@ namespace BabelDeobfuscator.Protections
                                     ctrl = (Control)reField.GetValue(frm);
                                 }
 
-                                catch (Exception ex)
-                                {
-
-                                }
+                                catch (Exception) { }
 
                                 if (ctrl != null) conversionMap.Add(reField.Name, ctrl.Name);
                             }
@@ -88,10 +81,7 @@ namespace BabelDeobfuscator.Protections
                                     item = (ToolStripItem)reField.GetValue(frm);
                                 }
 
-                                catch (Exception ex)
-                                {
-
-                                }
+                                catch (Exception) { }
 
                                 if (item != null) conversionMap.Add(reField.Name, item.Name);
                             }

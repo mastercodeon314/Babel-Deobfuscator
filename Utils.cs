@@ -5,13 +5,8 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Reflection;
-//using dnpatch;
 using dnlib.DotNet;
 using dnlib.DotNet.Emit;
-using System.Windows.Forms;
-using MethodAttributes = dnlib.DotNet.MethodAttributes;
-using System.Collections.Concurrent;
-using System.Threading.Tasks;
 
 namespace BabelDeobfuscator.Protections
 {
@@ -64,7 +59,6 @@ namespace BabelDeobfuscator.Protections
                     {
                         if (opCodes[i + 2].OpCode == OpCodes.Callvirt)
                         {
-                            //Debugger.Break();
                             IField fld = (IField)opCodes[i - 2].Operand;
                             IMethodDefOrRef eventAddMethod = ((IMethodDefOrRef)opCodes[i + 2].Operand).ResolveMethodDef();
                             IMethodDefOrRef eventMethod = ((IMethodDefOrRef)opCodes[i].Operand).ResolveMethodDef();
@@ -218,7 +212,6 @@ namespace BabelDeobfuscator.Protections
                 {
                     Debugger.Break();
                 }
-                //res = asm.Find(t.FullName, true);
             }
             else
             {
