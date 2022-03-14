@@ -1,9 +1,0 @@
-C:\Users\LP\Source\Repos\Babel-Deobfuscator\bin\x64\Debug\BabelDeobfuscator.exe
-C:\Users\LP\Source\Repos\Babel-Deobfuscator\bin\x64\Debug\BabelDeobfuscator.pdb
-C:\Users\LP\Source\Repos\Babel-Deobfuscator\bin\x64\Debug\de4dot.blocks.dll
-C:\Users\LP\Source\Repos\Babel-Deobfuscator\bin\x64\Debug\dnlib.dll
-C:\Users\LP\Source\Repos\Babel-Deobfuscator\obj\x64\Debug\BabelDeobfuscator.csproj.AssemblyReference.cache
-C:\Users\LP\Source\Repos\Babel-Deobfuscator\obj\x64\Debug\BabelDeobfuscator.csproj.CoreCompileInputs.cache
-C:\Users\LP\Source\Repos\Babel-Deobfuscator\obj\x64\Debug\BabelDeobfuscator.csproj.CopyComplete
-C:\Users\LP\Source\Repos\Babel-Deobfuscator\obj\x64\Debug\BabelDeobfuscator.exe
-C:\Users\LP\Source\Repos\Babel-Deobfuscator\obj\x64\Debug\BabelDeobfuscator.pdb
