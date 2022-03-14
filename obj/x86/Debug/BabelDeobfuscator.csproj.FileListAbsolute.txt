@@ -1,0 +1,10 @@
+C:\Users\LP\source\repos\Babel-Deobfuscator\bin\x86\Debug\BabelDeobfuscator.exe
+C:\Users\LP\source\repos\Babel-Deobfuscator\bin\x86\Debug\BabelDeobfuscator.pdb
+C:\Users\LP\source\repos\Babel-Deobfuscator\bin\x86\Debug\de4dot.blocks.dll
+C:\Users\LP\source\repos\Babel-Deobfuscator\bin\x86\Debug\dnlib.dll
+C:\Users\LP\source\repos\Babel-Deobfuscator\obj\x86\Debug\BabelDeobfuscator.csproj.CoreCompileInputs.cache
+C:\Users\LP\source\repos\Babel-Deobfuscator\obj\x86\Debug\BabelDeobfuscator.csproj.CopyComplete
+C:\Users\LP\source\repos\Babel-Deobfuscator\obj\x86\Debug\BabelDeobfuscator.exe
+C:\Users\LP\source\repos\Babel-Deobfuscator\obj\x86\Debug\BabelDeobfuscator.pdb
+C:\ZTETool\BabelDeobfuscator.exe
+C:\ZTETool\BabelDeobfuscator.pdb

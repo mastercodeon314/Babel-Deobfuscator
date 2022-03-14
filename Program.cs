@@ -19,6 +19,7 @@ namespace BabelDeobfuscator
 		{
 			Console.WriteLine("Name of Executable to Unpack : ");
 			var path = Console.ReadLine();
+
 			if (path == string.Empty)
 				return;
 			if (path != null && path.StartsWith("\"") && path[path.Length - 1] == '"')

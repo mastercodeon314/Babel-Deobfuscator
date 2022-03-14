@@ -168,19 +168,25 @@ namespace BabelDeobfuscator.Protections
                     }
                 }
 
+                //if (typeDef.Name == "class5") Debugger.Break();
 
                 // Fix method names
                 int renamedMethods = 0;
                 foreach (MethodDef md in typeDef.Methods)
                 {
-                    if (md.Name == ".ctor" || md.Name == ".cctor") continue;
-
-                    if (!isValid(md.Name) || checkForSingleLowercaseCharName(md.Name))
+                    if (md.Name == ".ctor" || md.Name == ".cctor")
                     {
-                        renamedMethods++;
+                        cleanMethodParams(md);
+                    }
+                    else
+                    {
+                        if (!isValid(md.Name) || checkForSingleLowercaseCharName(md.Name))
+                        {
+                            renamedMethods++;
 
-                        string newName = "method" + renamedMethods.ToString();
-                        md.Name = newName;
+                            string newName = "method" + renamedMethods.ToString();
+                            md.Name = newName;
+                        }
 
                         cleanMethodParams(md);
                     }
