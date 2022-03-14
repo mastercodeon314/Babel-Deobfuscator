@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "721f99bf-66d0-478f-a72c-f2f6f4c21c18": {
+      "ProjectGuid": "721f99bf-66d0-478f-a72c-f2f6f4c21c18",
+      "DisplayName": "BabelDeobfuscator",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,9 +1,7 @@
 ﻿using System;
 using dnlib.DotNet;
-using dnlib.DotNet.Emit;
 using System.Reflection;
 using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Forms;
 
 namespace BabelDeobfuscator.Protections

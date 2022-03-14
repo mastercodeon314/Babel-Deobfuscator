@@ -18,7 +18,8 @@ namespace BabelDeobfuscator
 		private static void Main(string[] args)
 		{
 			Console.WriteLine("Name of Executable to Unpack : ");
-			var path = Console.ReadLine();
+			Console.WriteLine("RDPowerLG.exe");
+			var path = "RDPowerLG.exe";
 			if (path == string.Empty)
 				return;
 			if (path != null && path.StartsWith("\"") && path[path.Length - 1] == '"')
@@ -67,9 +68,11 @@ namespace BabelDeobfuscator
 			De4Dot.Cflow(moduleDefMD);
 			AntiTamper.AntiTamp(moduleDefMD);
 			FormRebuilder.RebuildForms(Program.asm, moduleDefMD);
+			NameCleaner.CleanNames(Program.asm, moduleDefMD);
 			Console.ForegroundColor = ConsoleColor.Green;
 			Console.WriteLine("Unpack Complete !");
 			moduleDefMD.Write("cleaned_" + path, new ModuleWriterOptions(moduleDefMD));
+			Console.ReadKey();
 		}
 		public static Assembly asm;
 	}
